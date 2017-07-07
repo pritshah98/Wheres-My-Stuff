@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seekers.wheresmystuff.LoginScreenActivity">
+
+    <TextView
+        android:text="Username:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:id="@+id/usernameLabel"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginTop="30dp"
+        android:id="@+id/passwordLabel"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:id="@+id/password"
+        android:hint="Enter Password"
+        android:layout_below="@+id/passwordLabel"
+        android:layout_alignStart="@+id/passwordLabel" />
+
+    <Button
+        android:id="@+id/enterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="36dp"
+        android:text="Enter" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Username"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/username"
+        android:layout_below="@+id/usernameLabel"
+        android:layout_alignStart="@+id/usernameLabel" />
+
+    <Button
+        android:id="@+id/cancelLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/enterLogin"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="32dp"
+        android:text="Cancel" />
+
+</RelativeLayout>

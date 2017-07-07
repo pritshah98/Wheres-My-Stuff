@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WheresMyStuff</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_found_item">Enter Found Item</string>
+</resources>
