@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">WheresMyStuff</string>
+    <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
     <string name="enter_found_item">Enter Found Item</string>
+    <string name="facebook_app_id">1964229817188815</string>
+    <string name="fb_login_protocol_scheme">fb1964229817188815</string>
 </resources>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#740001</color>
+    <color name="colorPrimaryDark">#510000</color>
+    <color name="colorAccent">#d3a625</color>
+    <color name="Gryffindor_Red_Dark">#740001</color>
+    <color name="Gryffindor_Yellow_Dark">#d3a625</color>
+    <color name="Gryffindor_Red_Light">#ae0001</color>
+    <color name="Gryffindor_Yellow_Light">#eeba30</color>
 </resources>

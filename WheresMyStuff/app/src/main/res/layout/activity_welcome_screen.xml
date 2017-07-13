@@ -8,17 +8,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.seekers.wheresmystuff.WelcomeScreenActivity">
+    android:background="@drawable/bg"
+    tools:context="com.example.seekers.wheresmystuff.Controller.WelcomeScreenActivity">
 
     <TextView
-        android:text="Welcome Screen!"
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="57dp"
-        android:id="@+id/welcome"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Welcome to WheresMyStuff!"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/Gryffindor_Yellow_Dark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/registration"
@@ -27,7 +30,10 @@
         android:layout_below="@+id/welcome"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="98dp"
-        android:text="Registration" />
+        android:textColor="@android:color/black"
+        android:text="Registration"
+        android:background="@drawable/button_border" />
+
 
     <Button
         android:id="@+id/login"
@@ -36,5 +42,7 @@
         android:layout_below="@+id/registration"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="72dp"
-        android:text="Login" />
+        android:background="@drawable/button_border"
+        android:text="Login"
+        android:textColor="@android:color/black" />
 </RelativeLayout>
