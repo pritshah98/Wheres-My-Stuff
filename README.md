@@ -1,1 +1,1 @@
-# Wheres-My-Stuff
+Users can register and enter in a lost or found item, search for a lost or found item, or find any item with a location on a map
